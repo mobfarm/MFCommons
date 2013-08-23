@@ -8,6 +8,7 @@
 
 #import "Commons.h"
 #import <CommonCrypto/CommonCrypto.h>
+#import "Megalog.h"
 
 @implementation Commons
 
