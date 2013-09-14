@@ -8,7 +8,7 @@
 
 #ifndef Commons_h
 #define Commons_h
-
+#import <Foundation/Foundation.h>
 #define TOLERANCE 0.1 // !!!
 
 #define IS_ZERO(x) (ABS((x)) < FLT_EPSILON)
