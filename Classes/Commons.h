@@ -8,7 +8,9 @@
 
 #ifndef Commons_h
 #define Commons_h
-#import <Foundation/Foundation.h>
+
+#import <CoreGraphics/CGGeometry.h>
+
 #define TOLERANCE 0.1 // !!!
 
 #define IS_ZERO(x) (ABS((x)) < FLT_EPSILON)
