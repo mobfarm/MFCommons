@@ -21,6 +21,7 @@
 		012ADCFB17E75F2F006D36EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ADCDD17E75F2F006D36EB /* UIKit.framework */; };
 		012ADD0317E75F2F006D36EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 012ADD0117E75F2F006D36EB /* InfoPlist.strings */; };
 		012ADD0517E75F2F006D36EB /* MobfarmCommonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADD0417E75F2F006D36EB /* MobfarmCommonsTests.m */; };
+		012ADD1117E75F50006D36EB /* Commons.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ADD1017E75F50006D36EB /* Commons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,11 @@
 		012ADD0017E75F2F006D36EB /* MobfarmCommonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobfarmCommonsTests-Info.plist"; sourceTree = "<group>"; };
 		012ADD0217E75F2F006D36EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		012ADD0417E75F2F006D36EB /* MobfarmCommonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobfarmCommonsTests.m; sourceTree = "<group>"; };
+		012ADD0F17E75F50006D36EB /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		012ADD1017E75F50006D36EB /* Commons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commons.m; sourceTree = "<group>"; };
+		012ADD1217E75F60006D36EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		012ADD1317E75F60006D36EB /* MFCommons.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MFCommons.podspec; sourceTree = "<group>"; };
+		012ADD1417E75F60006D36EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		012ADCCD17E75F2F006D36EB = {
 			isa = PBXGroup;
 			children = (
+				012ADD1217E75F60006D36EB /* LICENSE */,
+				012ADD1317E75F60006D36EB /* MFCommons.podspec */,
+				012ADD1417E75F60006D36EB /* README.md */,
+				012ADD0E17E75F50006D36EB /* Classes */,
 				012ADCDF17E75F2F006D36EB /* MobfarmCommons */,
 				012ADCFE17E75F2F006D36EB /* MobfarmCommonsTests */,
 				012ADCD817E75F2F006D36EB /* Frameworks */,
@@ -150,6 +160,15 @@
 				012ADD0117E75F2F006D36EB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		012ADD0E17E75F50006D36EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				012ADD0F17E75F50006D36EB /* Commons.h */,
+				012ADD1017E75F50006D36EB /* Commons.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012ADD1117E75F50006D36EB /* Commons.m in Sources */,
 				012ADCE617E75F2F006D36EB /* main.m in Sources */,
 				012ADCEA17E75F2F006D36EB /* CommonsAppDelegate.m in Sources */,
 				012ADCF017E75F2F006D36EB /* CommonsViewController.m in Sources */,
