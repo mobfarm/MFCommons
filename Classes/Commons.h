@@ -10,6 +10,7 @@
 #define Commons_h
 
 #import <CoreGraphics/CGGeometry.h>
+#import <float.h>
 
 #define TOLERANCE 0.1 // !!!
 

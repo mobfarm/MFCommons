@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MFCommons"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "A short description of MFCommons."
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mobfarm/MFCommons.git", :tag => "0.1.3" }
+  s.source       = { :git => "https://github.com/mobfarm/MFCommons.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
