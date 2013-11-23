@@ -14,7 +14,7 @@
 
 #define TOLERANCE 0.1 // !!!
 
-#define IS_ZERO(x) (ABS((x)) < FLT_EPSILON)
+#define IS_ZERO(x) (ABS((x)) < __FLT_EPSILON__)
 
 static BOOL lineIntersection(CGPoint p0, CGPoint p1, CGPoint p2, CGPoint p3, CGPoint * where);
 static CGPoint lineSecondPoint(CGPoint p0, float angle);
