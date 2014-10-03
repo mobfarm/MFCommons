@@ -9,6 +9,11 @@
 #import "Commons.h"
 #import <CommonCrypto/CommonCrypto.h>
 
+#include <sys/socket.h>
+#include <sys/sysctl.h>
+#include <net/if.h>
+#include <net/if_dl.h>
+
 @implementation Commons
 
 +(NSString *)randomIdentifier
@@ -95,11 +100,6 @@ static char hexConversionTable [] = {
     
     return (memcmp(digest0, digest1, CC_MD5_DIGEST_LENGTH) == 0);
 }
-
-#include <sys/socket.h>
-#include <sys/sysctl.h>
-#include <net/if.h>
-#include <net/if_dl.h>
 
 /* Settings keys */
 static NSString * MFExploraServerAddressKey = @"MFExploraServerAddress";
